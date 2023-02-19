@@ -1,0 +1,24 @@
+{
+  "name": "noroman/equip",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Roman Novikov",
+      "email": "service.for.roman@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "guzzlehttp/guzzle": "^7.0",
+    "imangazaliev/didom": "^1.13",
+    "ext-iconv": "*",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Equip\\": "src/"
+    }
+  },
+  "description": "API equip.me"
+}
